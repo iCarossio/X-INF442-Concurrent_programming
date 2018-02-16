@@ -1,0 +1,23 @@
+Très simplement :
+
+	 0	 1
+	
+
+On lance sur 2 threads séparés :
+- union(0,1) → x=find(0)=0 donc on obtient :
+	       y=find(1)=1
+	 0	
+	  \ 
+	   1
+
+- union(1,0), et comme on a lancé les 2 threads en même temps 
+	→ x=find(1)=1 donc on obtient :
+	  y=find(0)=0
+
+	 0	
+	 \\ 
+          1
+
+Et si ensuite on fait find(0) (pour l'associer à un autre élément par exemple), on se retrouve avec une boucle infinie
+	
+	

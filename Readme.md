@@ -1,6 +1,7 @@
 # École polytechnique | INF431 - Concurrent programming with Java
 
 Academic year: 2017-2018
+
 Teaching coordinator: [Eric Goubault](http://www.lix.polytechnique.fr/Labo/Eric.Goubault/)
 
 > There is no longer **application** that is not intrinsically parallel: from a simple graphical interface up to the robot controller, that manage competing events and programs, running simultaneously, and sharing common resources (memory, but also physical resources, sensors, motors, etc.). 
